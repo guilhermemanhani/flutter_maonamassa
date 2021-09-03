@@ -7,7 +7,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Oi'),
+        title: Text(
+          '0123456789',
+          style: TextStyle(
+            fontFamily: 'Codystar',
+            fontSize: 26,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         backgroundColor: Colors.red[900],
         actions: [
           IconButton(
